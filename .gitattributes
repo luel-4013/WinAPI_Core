@@ -1,0 +1,19 @@
+# Normalize line endings.
+* text=auto
+
+# Enforce LF for the codebase.
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary & large generated data stay as-is.
+*.jsonl binary
+*.csv binary
